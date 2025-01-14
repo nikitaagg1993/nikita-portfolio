@@ -7,10 +7,7 @@ export const Header = () => {
     basic_info,
   });
   return (
-    <header
-      id="home"
-      style={{ height: window.innerHeight - 140, display: "block" }}
-    >
+    <header id="home" style={{ height: window.innerHeight, display: "block" }}>
       <div className="row aligner" style={{ height: "100%" }}>
         <div className="col-md-12">
           <div>
