@@ -17,7 +17,7 @@ export const basic_info = {
     {
       name: "linked",
       url: "https://www.linkedin.com/in/nikita-aggarwal-28570943",
-      class: "fab fa-linkedin",
+      class: "devicon-linkedin-plain",
     },
   ],
   image: "myProfile.jpg",

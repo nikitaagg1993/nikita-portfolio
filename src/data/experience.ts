@@ -25,7 +25,7 @@ export const experience = [
   },
   {
     company: "Ticketmaster",
-    title: "Full Stack Developer",
+    title: "Front End Developer",
     years: "11.2019 - 09.2020",
     mainTech: ["React"],
     technologies: [

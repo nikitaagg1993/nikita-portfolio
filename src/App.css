@@ -421,6 +421,11 @@ footer a:focus {
   color: #fff;
 }
 
+.social-links-wrapper {
+  color: black;
+  text-decoration: none;
+}
+
 .social-links {
   margin-top: 50px;
   font-size: 22px;
