@@ -1,16 +1,13 @@
 import React from "react";
 import "./App.css";
 import { Header } from "./components/Header";
+import { Skills } from "./components/Skills";
 
 function App() {
   return (
     <div>
-      <header
-        id="home"
-        style={{ height: window.innerHeight - 140, display: "block" }}
-      >
-        <Header />
-      </header>
+      <Header />
+      <Skills />
     </div>
   );
 }
