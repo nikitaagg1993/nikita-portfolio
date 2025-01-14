@@ -6,6 +6,21 @@ export const Header = () => {
   console.log({
     basic_info,
   });
+
+  let networks = basic_info.social.map(function (network) {
+    return (
+      <span key={network.name} className="m-4">
+        <a
+          href={network.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-links-wrapper"
+        >
+          <i className={network.class}></i>
+        </a>
+      </span>
+    );
+  });
   return (
     <header id="home" style={{ height: window.innerHeight, display: "block" }}>
       <div className="row aligner" style={{ height: "100%" }}>
@@ -37,9 +52,9 @@ export const Header = () => {
                 }}
               />
             </h1>
-            {/* <div className="title-container">
-              <HeaderTitleTypeAnimation />
-            </div> */}
+            <div className="col-md-12">
+              <div className="social-links">{networks}</div>
+            </div>
           </div>
         </div>
       </div>
