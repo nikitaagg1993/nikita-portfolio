@@ -14,17 +14,18 @@ export const Header = () => {
       <div className="row aligner" style={{ height: "100%" }}>
         <div className="col-md-12">
           <div>
-            <span
+            {/* <span
               className="iconify header-icon"
               data-icon="la:laptop-code"
               data-inline="false"
-            ></span>
+            ></span> */}
+            <i className="fa-solid fa-laptop-code header-icon"></i>
             <br />
-            <span
+            {/* <span
               className="iconify header-icon"
               data-icon="la:laptop-code"
               data-inline="false"
-            ></span>
+            ></span> */}
             <br />
             <h1 className="mb-0">{basic_info.name}</h1>
             <h1 className="mb-0">
