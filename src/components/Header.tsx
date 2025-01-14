@@ -55,9 +55,6 @@ export const Header = () => {
             <div className="col-md-12">
               <div className="social-links">{networks}</div>
             </div>
-            {/* <div className="title-container">
-              <HeaderTitleTypeAnimation />
-            </div> */}
           </div>
         </div>
       </div>
